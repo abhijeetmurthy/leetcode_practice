@@ -96,10 +96,12 @@ If you prefer using a cron job for scheduling:
 
 
 .
-├── leetcode_service_env/     # Virtual environment (not included in the repo)
-├── config.json               # Configuration file for credentials (not included in repo)
-├── requirements.txt          # List of dependencies
-├── service.py                # Main service code
+├── config.json               # Configuration file for credentials (do not commit this to Git)
+├── requirements.txt          # Dependencies for the project
+├── config.py                 # Configuration class
+├── leetcode_service.py       # LeetCode service class
+├── github_service.py         # GitHub service class
+├── orchestrator.py           # Orchestrator and entry point for the service
 ├── README.md                 # Project documentation
 └── .gitignore                # Git ignore file
 
