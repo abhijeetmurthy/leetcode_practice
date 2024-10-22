@@ -1,0 +1,7 @@
+{
+    "github_username": "your-github-username",
+    "github_token": "your-github-token",
+    "leetcode_username": "your-leetcode-username",
+    "leetcode_password": "your-leetcode-password",
+    "github_repo": "leetcode-solutions"
+}
